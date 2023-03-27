@@ -10,6 +10,15 @@ $letterSpacing: 0.8em;
 $paddingSize: 2em;
 $primaryColor: #008598;
 
+ul {
+
+  list-style: none;
+}
+
+a {
+  color: initial;
+}
+
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -131,3 +140,13 @@ img {
 }
 
 // FOOTER
+
+.footer {
+  &__wrapper {
+
+  }
+
+  &__section {
+
+  }
+}
