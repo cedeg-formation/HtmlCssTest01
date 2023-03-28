@@ -27,4 +27,8 @@ const changeText = (element) => {
 }
 setInterval(changeText, 800, imageText);
 
+// Modal
+
+
+
 
