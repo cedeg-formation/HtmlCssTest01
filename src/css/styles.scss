@@ -60,6 +60,10 @@ img {
   padding: 1em 2em;
 }
 
+.hidden {
+  display: none !important;
+}
+
 // HEADER
 
 .header {
@@ -231,7 +235,5 @@ display: flex;
 
     }
   }
-
-
 
 }

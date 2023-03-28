@@ -29,6 +29,13 @@ setInterval(changeText, 800, imageText);
 
 // Modal
 
+let modalButton = document.getElementsByClassName("modalButton");
+modalButton = Array.from(modalButton)
+
+modalButton.forEach(e => e.addEventListener('click', function(e) {
+document.getElementById('modal').classList.toggle('hidden')
+}))
+
 
 
 
