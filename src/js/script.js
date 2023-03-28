@@ -33,6 +33,7 @@ let modalButton = document.getElementsByClassName("modalButton");
 modalButton = Array.from(modalButton)
 
 modalButton.forEach(e => e.addEventListener('click', function(e) {
+    e.preventDefault();
 document.getElementById('modal').classList.toggle('hidden')
     document.getElementById('body').classList.toggle('modalOpen')
 }))
